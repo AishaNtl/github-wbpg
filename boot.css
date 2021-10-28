@@ -1,0 +1,35 @@
+body{
+	text-align:center;
+}
+
+body{
+background-image: url("Clouds.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+h1{
+	background-color: #CCCCFF;
+}
+
+ .justify-content-center:
+ 
+a:link{
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #DAF7A6;
+}
+
+a:active {
+	color: white;
+}
+
+
+<h1>Welcome to my portfolio website !</h1>
+	<h2>Stay as long as you like (we even have cookies !)</h2>

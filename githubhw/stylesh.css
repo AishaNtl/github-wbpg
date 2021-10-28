@@ -1,0 +1,64 @@
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Space Grotesk', sans-serif; */
+
+body{
+	text-align:center;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+background-image: url("pstcrd.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+h1{ font-family: 'IBM Plex Sans', sans-serif;
+	background-color: #CEB0A7; 
+}
+h2{background-color: #CCCCFF;
+}
+
+link{ background-color: #DAF7A6;
+}
+
+nav-item{ text-align; center;
+}
+
+
+
+
+/* #DAF7A6 */
+ /* .justify-content-center: */
+ 
+a:link{
+	color: green;
+}
+
+a:visited {
+	color: hotpink;
+}
+
+a:hover {
+	color: yellow;
+}
+
+a:active {
+	color: purple;
+}
+
+/* I'm still trying to figure out how to colour links and you can see I gave each command a different colour in the hop that I'd be able to see what I was doing more clearly and which commands were working I got them to be pink and hover blue but if I'm being quite honest it was a happy accident. Although I will definitely what I can get and won't tamper with it further */
+
+.table-responsive{
+	background-color: #CEB0A7;
+	width: 100%
+}
+
+/* -- Sadly I could not figure out how to make the table border flush with the background nor could I figure out why The bottom border would show up the same amount of pixels as the others at one time but other times when I would refresh it would barely be there*/
+
+
+
+td, th{
+	border: 2px solid black;
+	border: 2px solid black;
+	text-align: center;
+}

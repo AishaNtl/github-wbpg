@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JavaWbpg</title>
+		<!-- script tags used to embed JS -->
+		<script type="text/javascript">
+		//comment in JS
+		
+		var x = 5; //declaring a variable that contains the value 5
+		var y = 1;
+		var result = x+y;
+		
+		var password; //variable declared here
+		//password = prompt("password"); 
+		//prompt box allows to take data from the user
+		//the data needs to be saved somewhere - a variable
+		
+		var name; //another varibale
+		//name = prompt ("input name"); //data from user
+		
+		//alert("hello" +name); //concatonated the name
+		//confirm("do you wish to continue ?");
+		
+		//alert("are you sure ?");
+		//confirm("are you sure you're sure?");
+		
+		
+		
+		document.write("Ans: " + result ); //concatonation
+		document.write("<h1>hello cruel, cruel world !</h1>");
+		var num1;
+		//num1 = prompt("enter a number");
+		//default datatype from prompt() is string or text
+		
+		var numInteger = parseInt(num1); //parsing string to an integer
+		
+		var result = numInteger + numInteger;
+		//alert("answer for num1 + num1: " + result);
+		
+		//multiply
+		result = numInteger * numInteger;
+		//alert("multiplication for num1 + num1: " + result);
+		
+		//divide
+		result = numInteger / numInteger;
+		//alert("division for num1 + num1: " + result);
+		
+		//subtract
+		result = numInteger - numInteger;
+		//alert("subtraction for num1 + num1: " + result);
+		
+		var n1;
+		var n2;
+		//taking in and parsing numbers
+		//n1 = parseInt(prompt("Enter first number"));
+		//n2 = parseInt(prompt("Enter second number"));
+		
+		//IF statement, selection statement
+		//if(n1 > n2){
+		//when the condition evaluates to true this will be executed
+		//document.write("n1 is greater than n2"); //run
+		//}
+		
+		if(n1 > n2){
+		//code to execute when the if statemnt evaluates to true
+		//document.write("n1 is greater than n2");//run
+		}else{
+		//code to execute when the if statement evaluates to false
+		//document.write("n1 is not greater than n2");
+		}
+		
+		//document.write("<br />outside the IF statemnt");
+		
+		var age; //declare vars
+		var speed;
+		
+		//taking in and parsing numbers
+		age = parseInt(prompt("Enter age"));
+		speed = parseInt(prompt("Enter speed"));
+		
+		if((age < 18) || (speed > 80)){
+		//if either side evaluates to true, give 2 pts
+		document.write("<br />You have 2 penalty points");
+		}
+		
+		if((age < 18) &&(speed > 80)){
+		//both sides need to evaluate to true, give 2 pts
+		document.write("<br />You have 2 penalty pooints");
+		}
+		
+		document.write("<br />You are outside the IF statement");
+		
+		
+		</script>
+	</head>
+	
+	<body>
+	
+	
+	</body>
+</html>
